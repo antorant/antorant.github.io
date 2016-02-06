@@ -1,0 +1,23 @@
+/*
+COLOURS
+*/
+$white:       	#ffffff;
+$black:			#222222;
+
+$black: #332327;
+$light-grey: lighten($black, 90%);
+$light-grey: darken($white, 4%);
+
+$pink: #f01344;
+$orange: #f7931e;
+
+$blue: #5a8dec;
+
+
+/*
+Z-INDEX
+*/
+$z-under:     -100;
+$z-body:      0;
+$z-up:        500;
+$z-over:      1000;

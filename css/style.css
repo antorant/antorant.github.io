@@ -175,4 +175,20 @@ h3 {
     .shots img {
       margin: 0 0 20px; } }
 
+.shots__link {
+  display: inline-block;
+  padding: 10px 40px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f01344;
+  transition: background-color .3s; }
+  .shots__link:hover {
+    background-color: #dc0e3c; }
+  .shots__link.is-active {
+    margin-top: 40px; }
+
 /*# sourceMappingURL=style.css.map */

@@ -1,6 +1,5 @@
 <!doctype html>
-<!-- <html class="no-js" lang="en"> if using Modernizr -->
-<html class="no-js" lang="en">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -56,56 +55,67 @@
     <section>
       <div class="container">
         <div class="shots">
-          <!-- Start images -->
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2508239/opt.gif" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2507623/ajo.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2506952/waves.gif" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2506892/screen-shot-2016-02-05-at-16.59.24.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2506865/screen-shot-2016-02-05-at-13.55.53.gif" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2500976/wf.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2375487/colours.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2347729/penelope.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2343942/play-all.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2343941/icomoon.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2335606/leonard-bernstein.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2318182/151028-dr.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2308420/151022-dr2.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2308414/151022-dr1.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2305906/151021-dr2.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2304871/151021-dr1.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2302473/dr3.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2302415/dr2.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2302406/dr1.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2278907/issb.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2050883/untitled-1.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2041297/untitled-1.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2030295/untitled-3.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/2016466/favicon.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1903053/treefiddy.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1892580/dr.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1746925/untitled-1.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1731304/dr.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1690493/sm-dr.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1128623/dd-1.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1128621/dd-2.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1128619/dd-4.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1128617/dd-3.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1059188/zenaudio-logo-copy.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1054324/dr-lim.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1054321/dr-eflr.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1054320/dr-fisi.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1054318/dr-pnf.png" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1015140/spcr4.jpg" />
-          <img src="https://d13yacurqjgara.cloudfront.net/users/2913/screenshots/1015138/spcr3.jpg" />
-
-          <!-- / end images -->
-          <p>More on <a href="http://dribbble.com/antorant">Dribbble</a>.</p>
+          <div id="shots"></div>
+          <a href="http://dribbble.com/antorant"
+            class="shots__link"
+            style="opacity: 0;">
+            View on Dribbble
+          </a>
         </div>
-
       </div>
     </section>
   </div>
+  <!-- load jQuery -->
+  <script    src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">
+  </script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery.min.js"><\/script>')</script>
+
+
   <script>
+  // Render the images
+  function render(data){
+    imgs = '' // a string for the html
+
+    // loop through AJAX result
+    $.each(data, function(i, obj){
+      var src
+      // check if !hi-res image
+      if ( obj.images.hidpi == null ) {
+        src = obj.images.normal
+      } else {
+        src = obj.images.hidpi
+      }
+
+      img = '<img src="'+src+'" />\n' // build img element
+      imgs += img // add to the string
+    })
+
+    $('#shots').prepend( imgs )
+  }
+
+
+  $(document).ready(function(){
+    // Dribbble API
+    $.ajax({
+      url: 'https://api.dribbble.com/v1/user/shots?per_page=24&access_token=46a21c94cdb90a13489a9f4196a72c0ee116186ca758379ca4a2c390e4f9d5f8',
+      type: 'GET',
+      error: function() {
+        // show default button link if API call fails
+        $('.shots__link').animate({'opacity': 1}, 1000)
+      },
+    })
+    .done(function(data){
+      // if successful...
+      render(data) // render images
+      $('.shots__link') // update button link
+        .text('More on Dribbble')
+        .addClass('is-active')
+        .animate({'opacity': 1}, 1000)
+    })
+  })
+  </script>
+  <script>
+  // Google Analytics
   if (window.location.hostname == 'localhost') {
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

@@ -40,7 +40,10 @@ body {
 /*
 Layout
 */
-section { padding: 20px 0; }
+section {
+  padding: 20px 0;
+  margin-bottom: 80px;
+}
 
 .container {
   position: relative;
@@ -154,14 +157,14 @@ h3 {
 }
 
 .shots img {
-  display: inline-block;
+  display: block;
   max-width: 100%; width: 400px; height: auto;
-  margin: 10px;
+  margin: 0 auto 80px;
 
   box-shadow: 0 2px 2px fade-out($black, .9);
 
   @include media-small {
-    margin: 0 0 20px;
+    margin: 0 auto 40px;
   }
 }
 

@@ -9,6 +9,10 @@ body {
   font-family: 'TchigMono-Regular';
 }
 
+a, a:link, a:visited {
+  color: inherit;
+}
+
 .container.thin {
   max-width: 36em;
   margin: 0 auto;

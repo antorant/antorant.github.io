@@ -13,6 +13,12 @@ a, a:link, a:visited {
   color: inherit;
 }
 
+h3 {
+  letter-spacing: 1px;
+  margin-top: 48px;
+  text-transform: uppercase;
+}
+
 .container.thin {
   max-width: 36em;
   margin: 0 auto;
@@ -86,11 +92,15 @@ nav a {
   text-align: justify;
 }
 
+.about h3 {
+  font-size: 75%;
+}
+
 .profile {
   display: block;
   width: 320px;
   height: 320px;
-  margin: 0 auto;
+  margin: 48px auto;
   border-radius: 50%;
 }
 

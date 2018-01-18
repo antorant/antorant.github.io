@@ -4,8 +4,11 @@ html, body {
 
 body {
   margin: 0;
-  font-size: 2.25vw;
-  line-height: 2;
+  max-width: 32em;
+  margin: 48px auto;
+  padding: 24px;
+  font-size: 24px;
+  line-height: 1.5;
   font-family: 'TchigMono-Regular';
 }
 
@@ -13,119 +16,30 @@ a, a:link, a:visited {
   color: inherit;
 }
 
-h3 {
-  letter-spacing: 1px;
-  margin-top: 48px;
-  text-transform: uppercase;
-}
-
-.container.thin {
-  max-width: 36em;
-  margin: 0 auto;
-}
-
 .index {
   display: block;
-  /*width: 100%;*/
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+
 }
 
-.name, .role {
-  /*width: 100%;*/
-  margin: 0;
+h1 {
+  /* border-bottom: .5vw solid black; */
+  margin: 0 0 32px;
+  font-size: 72px;
+  line-height: .75;
   font-family: 'TchigMono-Bold';
   font-feature-settings: 'ss01', 'ss02', 'ss03', 'ss04';
   text-transform: lowercase;
 }
 
-.name {
-  /*margin-bottom: 4.5vw;*/
-  padding-bottom: 2vw;
-  font-size: 8vw;
-  /*letter-spacing: -2vw;*/
-  line-height: .6;
-  /*opacity: .5;*/
-  border-bottom: .5vw solid black;
+p {
+  margin: 16px 0;
 }
 
-.role {
-  margin-bottom: 2vw;
-  font-size: 4vw;
-  /*letter-spacing: -1vw;*/
-  line-height: 1;
-  text-align: right;
-}
-
-nav {
-  /*position: absolute;
-  top: 1vw;
-  right: 0;*/
-}
-
-nav a {
-  /*display: block;*/
-  padding: .25vw 0;
-  margin: 0 24px;
-  font-size: 4vw;
-  font-family: 'TchigMono-Bold';
-  font-feature-settings: 'ss01', 'ss02', 'ss03', 'ss04';
-  text-transform: lowercase;
-
-  text-decoration: none;
-
-  color: black;
-
-  border-bottom: .5vw solid black;
-
-  /*color: white;
-  background-color: black;*/
-}
-
-.about {
-  padding: 24px;
-  font-size: 24px;
-  letter-spacing: 0;
-  text-align: justify;
-}
-
-.about h3 {
-  font-size: 75%;
-}
-
-.profile {
-  display: block;
-  width: 320px;
-  height: 320px;
-  margin: 48px auto;
-  border-radius: 50%;
-}
-
-.work {
-  text-align: center;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-a.back {
-  position: fixed;
-  top: 0;
-  left: 0;
-  font-size: 4vw;
-  line-height: 1;
-  padding: 32px;
-  font-family: 'TchigMono-Bold';
-  text-decoration: none;
-  color: grey;
-  /*color: white;*/
-}
-
-a.back:hover {
-  color: black;
+@media only screen and (max-width : 768px) {
+  body {
+    font-size: 16px;
+    margin: 0 auto;
+  }
 }

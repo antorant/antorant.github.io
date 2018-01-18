@@ -19,12 +19,9 @@ a, a:link, a:visited {
 .index {
   display: block;
   height: 100%;
-
-
 }
 
 h1 {
-  /* border-bottom: .5vw solid black; */
   margin: 0 0 32px;
   font-size: 72px;
   line-height: .75;

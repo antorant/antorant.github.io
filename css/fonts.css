@@ -1,52 +1,52 @@
-/**
- * @license
- * MyFonts Webfont Build ID 3414137, 2017-06-29T11:32:54-0400
- *
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
- * explicitly restricted from using the Licensed Webfonts(s).
- *
- * You may obtain a valid license at the URLs below.
- *
- * Webfont: TchigMono-Medium by Schizotype
- * URL: https://www.myfonts.com/fonts/schizotype/tchig-mono/medium/
- *
- * Webfont: TchigMono-Bold by Schizotype
- * URL: https://www.myfonts.com/fonts/schizotype/tchig-mono/bold/
- *
- * Webfont: TchigMono-Regular by Schizotype
- * URL: https://www.myfonts.com/fonts/schizotype/tchig-mono/regular/
- *
- * Webfont: TchigMono-Black by Schizotype
- * URL: https://www.myfonts.com/fonts/schizotype/tchig-mono/black/
- *
- * Webfont: TchigMono-Light by Schizotype
- * URL: https://www.myfonts.com/fonts/schizotype/tchig-mono/light/
- *
- *
- * License: https://www.myfonts.com/viewlicense?type=web&buildid=3414137
- * Licensed pageviews: 10,000
- * Webfonts copyright: Copyright (c) 2017 by Schizotype. All rights reserved.
- *
- * © 2017 MyFonts Inc
-*/
+@font-face {
+    font-family: 'bitstream_vera_sans_monoroman';
+    src: url('../webfonts/VeraMono-webfont.eot');
+    src: url('../webfonts/VeraMono-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/VeraMono-webfont.woff2') format('woff2'),
+         url('../webfonts/VeraMono-webfont.woff') format('woff'),
+         url('../webfonts/VeraMono-webfont.ttf') format('truetype'),
+         url('../webfonts/VeraMono-webfont.svg#bitstream_vera_sans_monoroman') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
-
-/* @import must be at top of file, otherwise CSS will not work */
-@import url("//hello.myfonts.net/count/341879");
-
+}
 /*
-@font-face {font-family: 'TchigMono-Medium';src: url('../webfonts/341879_0_0.eot');src: url('../webfonts/341879_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/341879_0_0.woff2') format('woff2'),url('../webfonts/341879_0_0.woff') format('woff'),url('../webfonts/341879_0_0.ttf') format('truetype');}
+@font-face {
+    font-family: 'bitstream_vera_sans_monobold';
+    src: url('../webfonts/VeraMono-Bold-webfont.eot');
+    src: url('../webfonts/VeraMono-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/VeraMono-Bold-webfont.woff2') format('woff2'),
+         url('../webfonts/VeraMono-Bold-webfont.woff') format('woff'),
+         url('../webfonts/VeraMono-Bold-webfont.ttf') format('truetype'),
+         url('../webfonts/VeraMono-Bold-webfont.svg#bitstream_vera_sans_monobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bitstream_vera_sans_monoBdOb';
+    src: url('../webfonts/VeraMono-Bold-Italic-webfont.eot');
+    src: url('../webfonts/VeraMono-Bold-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/VeraMono-Bold-Italic-webfont.woff2') format('woff2'),
+         url('../webfonts/VeraMono-Bold-Italic-webfont.woff') format('woff'),
+         url('../webfonts/VeraMono-Bold-Italic-webfont.ttf') format('truetype'),
+         url('../webfonts/VeraMono-Bold-Italic-webfont.svg#bitstream_vera_sans_monoBdOb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bitstream_vera_sans_monoOb';
+    src: url('../webfonts/VeraMono-Italic-webfont.eot');
+    src: url('../webfonts/VeraMono-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/VeraMono-Italic-webfont.woff2') format('woff2'),
+         url('../webfonts/VeraMono-Italic-webfont.woff') format('woff'),
+         url('../webfonts/VeraMono-Italic-webfont.ttf') format('truetype'),
+         url('../webfonts/VeraMono-Italic-webfont.svg#bitstream_vera_sans_monoOb') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 */
-
-@font-face {font-family: 'TchigMono-Bold';src: url('../webfonts/341879_1_0.eot');src: url('../webfonts/341879_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/341879_1_0.woff2') format('woff2'),url('../webfonts/341879_1_0.woff') format('woff'),url('../webfonts/341879_1_0.ttf') format('truetype');}
-
-
-@font-face {font-family: 'TchigMono-Regular';src: url('../webfonts/341879_2_0.eot');src: url('../webfonts/341879_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/341879_2_0.woff2') format('woff2'),url('../webfonts/341879_2_0.woff') format('woff'),url('../webfonts/341879_2_0.ttf') format('truetype');}
-
-/*
-@font-face {font-family: 'TchigMono-Black';src: url('../webfonts/341879_3_0.eot');src: url('../webfonts/341879_3_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/341879_3_0.woff2') format('woff2'),url('../webfonts/341879_3_0.woff') format('woff'),url('../webfonts/341879_3_0.ttf') format('truetype');}
-
-
-@font-face {font-family: 'TchigMono-Light';src: url('../webfonts/341879_4_0.eot');src: url('../webfonts/341879_4_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/341879_4_0.woff2') format('woff2'),url('../webfonts/341879_4_0.woff') format('woff'),url('../webfonts/341879_4_0.ttf') format('truetype');}
- */

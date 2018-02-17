@@ -7,27 +7,13 @@ body {
   max-width: 32em;
   margin: 48px auto;
   padding: 24px;
-  font-size: 24px;
+  font-size: 14px;
   line-height: 1.5;
-  font-family: 'TchigMono-Regular';
+  font-family: 'bitstream_vera_sans_monoroman', Menlo, monospace;
 }
 
 a, a:link, a:visited {
   color: inherit;
-}
-
-.index {
-  display: block;
-  height: 100%;
-}
-
-h1 {
-  margin: 0 0 32px;
-  font-size: 72px;
-  line-height: .75;
-  font-family: 'TchigMono-Bold';
-  font-feature-settings: 'ss01', 'ss02', 'ss03', 'ss04';
-  text-transform: lowercase;
 }
 
 p {

@@ -54,14 +54,14 @@ p {
   display: flex;
 }
 
-.work a {
+.work__link {
   width: 100%;
   max-width: 384px;
   height: 384px;
   margin: 24px;
 }
 
-.work a img {
+.work__link img {
   width: 100%;
   height: auto;
 }

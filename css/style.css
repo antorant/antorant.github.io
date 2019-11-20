@@ -13,7 +13,7 @@ body {
   margin: 0;
   margin: 0 auto;
   padding: 0;
-  font-size: 100%;
+  font-size: 150%;
   line-height: 1.5;
   font-family: 'Times New Roman', serif;
 }
@@ -29,6 +29,10 @@ p {
 h2 {
   font-size: 2rem;
   font-style: italic;
+  margin: 0;
+  padding: 24px;
+  text-align: center;
+  width: 100%;
 }
 
 h3 {
@@ -90,8 +94,8 @@ a.work__link:hover {
 
 @media only screen and (max-width : 768px) {
   .work__link {
-    height: 100vw;
-    width: 100vw;
+    height: 50vw;
+    width: 50vw;
   }
 }
 
@@ -101,13 +105,23 @@ a.work__link:hover {
 }
 
 .services {
-  margin: 72px auto;
-  max-width: 32em;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 72px 0;
+}
+
+.services__item {
+  padding: 0 48px;
+  width: 33.3vw;
 }
 
 @media only screen and (max-width : 768px) {
   .services {
     margin: 72px 16px;
+  }
+
+  .services__item {
+    width: 100vw;
   }
 }
 

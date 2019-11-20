@@ -5,15 +5,17 @@ html, body {
   color: black;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
-  /* max-width: 32em; */
   margin: 0 auto;
   padding: 0;
-  font-size: 32px;
+  font-size: 100%;
   line-height: 1.5;
   font-family: 'Times New Roman', serif;
-  font-style: italic;
 }
 
 a, a:link, a:visited {
@@ -21,7 +23,17 @@ a, a:link, a:visited {
 }
 
 p {
-  margin: 16px 0;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+h3 {
+  font-style: italic;
+  margin-bottom: 0;
 }
 
 .lowercase {
@@ -29,47 +41,89 @@ p {
 }
 
 .cover {
+  align-items: center;
+  background-attachment: fixed;
+  background-image: url('../img/20191115-cover.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  border-bottom: 1px solid black;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-
-  padding: 120px 24px 0;
-
-  border-bottom: 1px solid black;
+  font-size: 3rem;
+  font-style: italic;
+  height: 100vh;
+  justify-content: flex-start;
+  padding: 10vw 8vw;
 }
 
-.cover__info {
-  max-width: 32em;
-  text-align: center;
-}
 
 @media only screen and (max-width : 768px) {
   body {
-    font-size: 16px;
-    margin: 0 auto;
+
   }
 
   .cover {
-    flex-direction: column-reverse;
-    padding: 48px 24px 0;
+    align-items: flex-start;
+    background-position: bottom right;
+    font-size: 2rem;
+    text-align: center;
+    /* padding: 48px 24px 0; */
   }
 }
 
 .work {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .work__link {
-  width: 100%;
-  max-width: 320px;
-  height: 320px;
-  margin: 24px;
+  width: 33.3vw;
+  height: 33.3vw;
+  margin: 0;
+  transition: .25s filter;
+}
+
+a.work__link:hover {
+  filter: invert(100%);
+}
+
+@media only screen and (max-width : 768px) {
+  .work__link {
+    height: 100vw;
+    width: 100vw;
+  }
 }
 
 .work__link img {
   width: 100%;
   height: auto;
+}
+
+.services {
+  margin: 72px auto;
+  max-width: 32em;
+}
+
+@media only screen and (max-width : 768px) {
+  .services {
+    margin: 72px 16px;
+  }
+}
+
+.contact {
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.contact a {
+  padding: 24px;
+  text-decoration: none;
+  transition: 1.33s color, .25s background-color;
+}
+
+.contact a:hover {
+  background-color: black;
+  color: white;
 }

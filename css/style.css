@@ -105,9 +105,10 @@ a.work__link:hover {
 }
 
 .services {
+  border-bottom: 1px solid black;
   display: flex;
   flex-wrap: wrap;
-  margin: 72px 0;
+  padding: 72px 0;
 }
 
 .services__item {
@@ -128,6 +129,7 @@ a.work__link:hover {
 .contact {
   font-size: 2rem;
   font-style: italic;
+  padding: 72px 0 0;
   text-align: center;
 }
 

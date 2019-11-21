@@ -118,10 +118,12 @@ a.work__link:hover {
 
 @media only screen and (max-width : 768px) {
   .services {
+    font-size: 1rem;
     margin: 72px 16px;
   }
 
   .services__item {
+    padding: 0;
     width: 100vw;
   }
 }

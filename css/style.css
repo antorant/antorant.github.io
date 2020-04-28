@@ -1,0 +1,43 @@
+:root {
+  --c-text: #222222;
+}
+
+html, body {
+  font-size: 100%;
+}
+
+body {
+  color: #222222;
+  font-family: 'Inconsolata', monospace;
+  line-height: 1.5;
+  margin: 1rem auto;
+  max-width: 36rem;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+hr {
+  background-color: var(--c-text);
+  border: 0 none;
+  height: 1px;
+  margin: 2rem 0;
+}
+
+li {
+  margin-bottom: .5rem;
+}

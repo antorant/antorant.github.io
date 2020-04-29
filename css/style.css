@@ -9,7 +9,6 @@ html, body {
 body {
   color: #222222;
   font-family: 'Inconsolata', monospace;
-  line-height: 1.5;
   margin: 1rem auto;
   max-width: 36rem;
   padding: 1rem;
@@ -24,6 +23,7 @@ h1 {
 
 h2 {
   font-size: 1rem;
+  line-height: 1;
   margin-top: 3rem;
 }
 
@@ -39,8 +39,13 @@ hr {
   margin: 3rem 0;
 }
 
+p {
+  line-height: 1.5;
+}
+
 ul { padding-left: 1rem; }
 
 li {
+  line-height: 1.5;
   margin-bottom: .5rem;
 }

@@ -1,5 +1,6 @@
 :root {
   --c-text: #222222;
+  --c-text: #222222;
 }
 
 html, body {
@@ -80,6 +81,9 @@ a:link, a:visited {
 }
 
 nav {
+  font-size: .75rem;
+  font-weight: bold;
+  letter-spacing: .05em;
   text-transform: uppercase;
 }
 

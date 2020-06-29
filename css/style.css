@@ -90,7 +90,7 @@ nav {
 nav a { text-decoration: none; }
 nav a:hover { text-decoration: underline; }
 
-/* LAyout */
+/* Layout */
 
 
 
@@ -98,4 +98,12 @@ nav a:hover { text-decoration: underline; }
 /* Practice page */
 .project-link {
   text-decoration: none;
+}
+
+@media print {
+ body { font-size: 0.875rem; }
+
+ section { margin-bottom: 1rem; }
+ p, ul { margin-bottom: 1rem; }
+ hr { margin: 0; }
 }

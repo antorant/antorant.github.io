@@ -43,13 +43,13 @@ h1 {
 h2 {
   font-size: 1rem;
   line-height: 1;
-  /* margin-top: 3rem; */
+  margin-top: 3rem;
 }
 
 h3 {
   font-size: 1rem;
   line-height: 1;
-  /* margin-top: 3rem; */
+  margin-top: 3rem;
 }
 
 img {
@@ -66,12 +66,12 @@ hr {
 
 p {
   line-height: 1.5;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
 }
 
 ul {
   line-height: 1.5;
-  margin-bottom: 3rem;
+  /* margin-bottom: 3rem; */
   padding-left: 1rem;
 }
 

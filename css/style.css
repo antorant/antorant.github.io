@@ -15,11 +15,11 @@ body {
   margin: 1rem auto;
   max-width: 36rem;
   padding: 1rem;
-
-  /* Safari PDF Export styles */
-  /* max-width: 48rem; */
-  /* font-size: 112.5%; */
 }
+
+/* Safari PDF Export styles */
+/* body { max-width: 48rem; } */
+/* html, body { font-size: 112.5%; } */
 
 nav {
   display: flex;

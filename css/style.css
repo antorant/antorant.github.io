@@ -104,6 +104,7 @@ nav a:hover { text-decoration: underline; }
 
 /* Practice page */
 .project-link {
+  display: block;
   text-decoration: none;
 }
 

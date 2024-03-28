@@ -11,7 +11,10 @@ html, body {
 
 body {
   color: #222222;
-  font-family: 'Inconsolata', monospace;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   margin: 2rem auto;
   max-width: 36rem;
   padding: 1rem;
@@ -22,9 +25,9 @@ body {
 /* html, body { font-size: 112.5%; } */
 
 nav {
-  display: flex;
+/*  display: flex;
   justify-content: space-between;
-  margin-bottom: 3rem;
+  margin-bottom: 3rem;*/
 }
 
 section {
@@ -34,14 +37,16 @@ section {
 /* Text Styles */
 
 h1 {
-  font-size: 2rem;
-  letter-spacing: 1px;
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: -.1rem;
   line-height: 1;
-  text-transform: uppercase;
+  margin: 2rem auto;
+/*  text-transform: uppercase;*/
 }
 
 h2 {
-  font-size: 1rem;
+  font-size: 2rem;
   line-height: 1;
   margin-top: 3rem;
 }
@@ -88,11 +93,14 @@ a.plain-text { text-decoration: none; }
 a.plain-text:hover { text-decoration: underline; }
 
 nav {
-  font-size: .75rem;
+/*  line-height: 2;*/
+/*  font-size: .75rem;
   font-weight: bold;
   letter-spacing: .05em;
-  text-transform: uppercase;
+  text-transform: uppercase;*/
 }
+
+nav p { line-height: 2; }
 
 nav a { text-decoration: none; }
 nav a:hover { text-decoration: underline; }

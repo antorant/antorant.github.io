@@ -114,6 +114,9 @@ nav a:hover { text-decoration: underline; }
 /* Layout */
 
 
+iframe {
+  max-width: 100%;
+}
 
 
 /* Practice page */
